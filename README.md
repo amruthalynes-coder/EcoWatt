@@ -2,27 +2,40 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [EcoWatt] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [Twin minds]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [AMRUTHA C F ] - [AISAT]
+- Member 2: [SANIYA DAVIS] - [AISAT]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Smart Campus Energy Monitoring & AI Prediction System is a web-based dashboard that monitors energy consumption across multiple rooms in a campus environment.]
 
 ### The Problem statement
-[What problem are you solving?]
+[Educational institutions and office campuses consume a significant amount of electrical energy daily]
 
 ### The Solution
-[How are you solving it?]
+[We propose a Smart Campus Energy Monitoring & AI Prediction System that:
+1. Monitors Energy Room-wise
+Each room has a separate dashboard with independent tracking.
+2. Provides Real-Time Visualization
+Energy usage is displayed using dynamic graphs for better understanding.
+ 3. AI-Based Consumption Prediction
+The system uses moving average time-series logic to predict next hour energy usage.
+4. Carbon Emission Calculation
+Energy consumption is converted into carbon footprint using standard emission factor.
+ 5. Role-Based Access
+Admin → Full control
+User → View-only access
+6. Efficiency Leaderboard
+Rooms are ranked based on energy efficiency to promote healthy competition.?]
 
 ---
 
@@ -31,10 +44,9 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [ JavaScript, html, css]
+
+- Tools used: [ VS Code, Git]
 
 **For Hardware:**
 - Main components: [List main components]
@@ -83,38 +95,20 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+![<img width="1359" height="614" alt="Screenshot 2026-02-28 160538" src="https://github.com/user-attachments/assets/530e044d-9a9c-4e03-a845-2c1a2f6bbfe4" />
+](Login page)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![<img width="1363" height="664" alt="Screenshot 2026-02-28 161402" src="https://github.com/user-attachments/assets/e4568005-a2e7-4366-a631-d28a1f07e17d" />
+](Energy graph)
 *Add caption explaining what this shows*
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
-#### Diagrams
 
-**System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
 
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
-
----
-
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 #### Build Photos
 
@@ -215,20 +209,6 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 
 ---
 
-### For Hardware Projects:
-
-#### Bill of Materials (BOM)
-
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
-
-**Total Estimated Cost:** ₹[Amount]
 
 #### Assembly Instructions
 
@@ -361,7 +341,7 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+[https://drive.google.com/file/d/1dSGhJy02q3obnN4b-tchcZOtYfjBhWQO/view?usp=sharing]
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
