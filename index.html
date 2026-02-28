@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EcoWatt - Smart Energy Monitoring</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+    🌿 EcoWatt - Smart Energy & Carbon Monitoring
+</header>
+
+<div class="container">
+
+    <!-- LOGIN SECTION -->
+    <div id="loginSection" class="card">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Enter Username">
+        <select id="role">
+            <option value="admin">Admin</option>
+            <option value="user">User</option>
+        </select>
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div id="dashboard" style="display:none;">
+
+        <div class="card">
+            <h3>Welcome, <span id="displayUser"></span></h3>
+            <button class="logout" onclick="logout()">Logout</button>
+        </div>
+
+        <div class="card">
+            <h3>Select Room</h3>
+            <select id="roomSelect" onchange="switchRoom()"></select>
+        </div>
+
+        <div class="flex">
+
+            <div class="card half">
+                <h3>Device Controls</h3>
+                <button onclick="toggleDevice('light')">Toggle Light</button>
+                <button onclick="toggleDevice('fan')">Toggle Fan</button>
+            </div>
+
+            <div class="card half">
+                <h3>Energy Stats</h3>
+                <p>Energy Usage: <span id="energy">0</span> Wh</p>
+                <p>Carbon Emission: <span id="carbon">0</span> kg CO₂</p>
+                <p>AI Prediction: <span id="prediction">0</span> Wh</p>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <h3>Energy Graph</h3>
+            <canvas id="energyChart"></canvas>
+        </div>
+
+        <div class="card">
+            <h3>Leaderboard (Most Efficient Rooms)</h3>
+            <div id="leaderboard"></div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html> 
