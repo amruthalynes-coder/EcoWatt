@@ -19,33 +19,45 @@ header {
 .card {
     background: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-bottom: 20px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 button {
     padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     background: #3498db;
     color: white;
     cursor: pointer;
     margin-top: 10px;
+    transition: 0.3s;
 }
 
 button:hover {
-    opacity: 0.9;
+    background: #2980b9;
 }
 
 .logout {
     background: #e74c3c;
 }
 
+.logout:hover {
+    background: #c0392b;
+}
+
 input, select {
     width: 100%;
     padding: 8px;
     margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
 }
 
 .flex {
@@ -65,6 +77,7 @@ input, select {
     padding: 5px 0;
 }
 
+/* Mobile Responsive */
 @media(max-width: 768px) {
     .flex {
         flex-direction: column;
