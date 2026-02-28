@@ -82,4 +82,20 @@ input, select {
     .flex {
         flex-direction: column;
     }
+    .dark {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark .card {
+    background: #2c2c2c;
+    color: white;
+}
+
+.dark input, 
+.dark select {
+    background: #3c3c3c;
+    color: white;
+    border: 1px solid #555;
+}
 }

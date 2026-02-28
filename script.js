@@ -97,6 +97,7 @@ function calculateCarbon(energy){
     return (energy * 0.00082).toFixed(3);
 }
 
+
 function predictEnergy(history){
     if(history.length === 0) return 0;
     let sum = history.reduce((a,b)=>a+b,0);
@@ -149,4 +150,7 @@ function updateLeaderboard(){
              <span>${room[1].energy} Wh</span>`;
         board.appendChild(div);
     });
+    function toggleTheme(){
+    document.body.classList.toggle("dark");
+}
 }
